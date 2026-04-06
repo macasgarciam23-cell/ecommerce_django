@@ -20,13 +20,13 @@ Aplicación web desarrollada en Django para la gestión de productos.
 
 4. Descripción del Modelo de Datos
 
-# Modelo `Categoria`
+Modelo `Categoria`
 
 Campos:
     nombre → CharField, nombre de la categoría
     Relación: `Producto` tiene ForeignKey a `Categoria`.
 
-# Modelo `Producto`
+Modelo `Producto`
 Campos:
     nombre` → CharField, nombre del producto
     categoria` → ForeignKey a `Categoria`
@@ -61,7 +61,7 @@ h. Abir navegador (microsoft):    http://127.0.0.1:8000/
 Las capturas se encuentrar en la carpeta Capturas:
 - Lista de productos  (Captura 1)
 - Crear producto  (Captura 2)
-- Editar producto  (Captura 30)
+- Editar producto  (Captura 3)
 - Panel administrador  (Capturas 4 y 5)
  
  Panel Administrativo Django (Captura 4 "Admin_categoria" y 5 "Admin_Productos)
