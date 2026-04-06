@@ -64,4 +64,3 @@ Las capturas se encuentrar en la carpeta Capturas:
 - Editar producto  (Captura 3)
 - Panel administrador  (Capturas 4 y 5)
  
- Panel Administrativo Django (Captura 4 "Admin_categoria" y 5 "Admin_Productos)
