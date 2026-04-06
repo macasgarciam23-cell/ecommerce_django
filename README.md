@@ -44,6 +44,7 @@ Campos:
 | `delete/<id>/` | GET/POST | Eliminar producto |
 
 
+
 6.  Cómo ejecutar el proyecto (Microsoft)
 a. Ingresar a la carpeta donde esta el proyecto (donde esta manage.py)  
 b. Crear entorno virtual:      python -m venv env
@@ -55,48 +56,12 @@ f. Crear superusuario:            python manage.py createsuperuser
 g. Ejecutar servidor:             python manage.py runserver
 h. Abir navegador (microsoft):    http://127.0.0.1:8000/
 
+
 5. Evidencias
-   Las capturas se encuentrar en la carpeta Capturas:
-   # Lista de productos
-   # Crear producto
-   # Editar producto
-   # Panel administrador
-
-
-
-# 4. Pasos para Ejecutar el Proyecto
-
-1. Clonar el repositorio o descomprimir el proyecto.
-2. Crear un entorno virtual (opcional pero recomendado):
-   Terminal 
-   python -m venv env
-   env\Scripts\activate  # Windows
-   source env/bin/activate  # Mac/Linux
-
-3. Dependencias: 
-    pip install django 
-
-
-4. Aplicar migraciones
-    python manage.py makemigrations
-    python manage.py migrate
-
-5. Crear superusuario (opcional, para panel admin):
-    python manage.py createsuperuser
-
-6. Ejecutar servidor 
-    python manage.py runserver
-
-7. Acceder al navegador 
-127.0.0.1:8000
-    
-# Evidencias
+Las capturas se encuentrar en la carpeta Capturas:
 - Lista de productos  (Captura 1)
 - Crear producto  (Captura 2)
 - Editar producto  (Captura 30)
 - Panel administrador  (Capturas 4 y 5)
  
-
- Formulario Editar Producto (Captura 3 "Editar_producto")
-
  Panel Administrativo Django (Captura 4 "Admin_categoria" y 5 "Admin_Productos)
